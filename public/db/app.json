@@ -263,46 +263,13 @@
       ]
     }
   ],
-  "booking": [
-    {
-      "date": "2020-08-29",
-      "hour": "0:00",
-      "peopleAmount": 1,
-      "duration": 1,
-      "starters": [],
-      "address": "",
-      "phone": "",
-      "id": 1
-    },
-    {
-      "date": "2020-08-29",
-      "hour": "22:00",
-      "peopleAmount": 1,
-      "duration": 1,
-      "starters": [],
-      "address": "",
-      "phone": "",
-      "id": 2
-    },
-    {
-      "date": "2020-08-29",
-      "hour": "22:00",
-      "peopleAmount": 1,
-      "duration": 1,
-      "starters": [],
-      "address": "",
-      "phone": "",
-      "id": 3
-    },
-    {
-      "date": "2020-08-29",
-      "hour": "22:00",
-      "peopleAmount": 1,
-      "duration": 1,
-      "starters": [],
-      "address": "",
-      "phone": "",
-      "id": 4
-    }
+  "booking": [],
+  "tables": [
+    {"id": 1, "status": "free", "orderId": 12, "tableId": 1 },
+    {"id": 2, "status": "thinking", "orderId": "---", "tableId": 3 },
+    {"id": 3, "status": "ordered", "orderId": 123, "tableId": 2 },
+    {"id": 4, "status": "prepared", "orderId": 234, "tableId": 2 },
+    {"id": 5, "status": "delivered", "orderId": 345, "tableId": 1 },
+    {"id": 6, "status": "free", "orderId": 456, "tableId": 3 }  
   ]
 }
